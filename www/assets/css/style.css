@@ -1,0 +1,212 @@
+﻿
+body {
+	padding: 0; 
+	margin: 0; 
+	overflow-x: hidden; 
+	background: #f9f9f9; 
+	font-family: Helvetica, Arial, sans-serif; 
+	max-width: 1920px;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+}
+
+body#homepage { 
+	background: #333; 
+}
+
+#topbar { 
+	height: 24px; 
+	background: #333;
+}
+
+#topbar form { 
+	float: right; 
+	margin: 0px 0 0 0; 
+}
+
+#topbar ul {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#topbar li {
+	float: left;
+	margin: 1px 15px 0 0;
+	height: 12px;
+
+}
+
+#topbar li a:link, #topbar li a:visited { 
+	color: #888; 
+	text-decoration: none; 
+	font-size: 12px; 
+	font-family: Helvetica, Arial, sans-serif; 
+	text-transform: uppercase; 
+	font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
+}
+
+#topbar li a:hover, #topbar li a:active, #topbar li.here a, #topbar li.parent-here a, #topbar li.open a { 
+	color:#06C; 
+	text-decoration: none; 
+}
+
+#topbar form {
+	margin: 4px 0 0 0;
+	padding: 0;
+}
+
+#topbar .field { 
+	background: #666; 
+	font-size: 11px; 
+	float: right; 
+	width: 114px; 
+	height: 16px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	border: none; 
+	padding: 0 3px; 
+	margin: 0 3px 0 0; 
+
+}
+
+#topbar .btn { 
+	float: right; 
+	background-color: #666;
+	height: 16px; 
+	border: none; 
+	color: #fff; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	font-size: 11px; 
+	margin: 0 !important; 
+	padding: 0 6px !important;
+
+}
+
+.btn { 
+	height: 16px; 
+	padding: 2px 3px 0 3px; 
+	color: #fff !important; 
+	font-size: 13px; 
+	text-decoration: none;
+	position: relative; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	display: inline-block; 
+	margin: 0 15px 15px 0; 
+	text-shadow: none !important; 
+	line-height: 10px; 
+	font-family: 'MavenProRegular', Helvetica, Arial, sans-serif; 
+
+}
+
+#topbar .field {
+	background: #666; 
+	font-size: 11px; 
+	float: right;
+	width: 114px; 
+	height: 16px;
+	border: none;
+	padding: 0 3px;
+	margin: 0 5px 0 0;
+	color: #fff;
+}
+
+#header {
+	height: 80px;
+	background-color: #FFF;
+	background-clip:border-box;
+	box-shadow: 0px 2px 2px #333;
+	text-transform: uppercase;
+	font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
+}
+
+#logo {
+	font-size: 18px; 
+	color: #878787; 
+	text-decoration: none;
+	padding: 12px 14px 10px 14px; 
+	float: left; 
+	text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+	margin:14px 0 0;
+}
+
+#nav {
+	float: right;
+	list-style: none;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+#nav li{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#nav li a:link, #nav li a:visited { 
+	font-size: 18px; 
+	color: #878787; 
+	text-decoration: none;
+	padding: 12px 14px 10px 14px; 
+	float: left; 
+	text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+	display:inline;
+	font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
+}
+
+#nav li a:hover, #nav li a:active, #nav li.here a, #nav li.parent-here a, #nav li.open a { 
+	color:#06C; 
+	text-decoration: none; 
+}
+
+#content {
+	width: auto;
+	height: auto;
+}
+
+#background {
+	width: 1060px;
+	height: auto;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+#footer {
+	width: 100%;
+	height: 300px;
+	float: left;
+	background: #06C;
+}
+
+#footer h5 { 
+font-size: 17px;
+font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
+margin: 10px 0 10px 0;
+padding: 0; 
+color: #777; 
+font-weight: normal; 
+}
+
+#footer ul {
+	float: left;
+	list-style: none;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+
+.wrapper {
+	padding: 0;
+	margin: 0 auto;
+	width: 1060px;
+
+}
